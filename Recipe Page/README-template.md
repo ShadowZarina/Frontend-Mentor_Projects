@@ -31,7 +31,7 @@ Frontend Mentor: [Challenge link](https://www.frontendmentor.io/challenges/recip
 ### Links
 
 - Solution URL: [GitHub](https://github.com/ShadowZarina/Frontend-Mentor_Projects/tree/main/Recipe%20Page)
-- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://shadowzarina.github.io/fem-recipe-page/)
 
 ## My process
 
@@ -48,5 +48,5 @@ I want to explore more of HTML and CSS, perhaps trying more of the semantic HTML
 ## Author
 
 - GitHub - [Andrea To Chip](https://github.com/ShadowZarina)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ShadowZarina)
+- Frontend Mentor - [@ShadowZarina](https://www.frontendmentor.io/profile/ShadowZarina)
 
