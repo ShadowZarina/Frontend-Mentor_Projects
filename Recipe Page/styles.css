@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
     margin: auto;
     padding: 30px;
@@ -9,8 +13,6 @@ body {
     align-content: center;
 }
 #recipe{
-    height: 60%;
-    width: 60%;
     max-width: 45rem;
     padding: 30px;
     background-color: hsl(0, 0%, 100%);
@@ -18,7 +20,7 @@ body {
 }
 #prep{
     background-color: hsl(330, 100%, 98%);
-    border-radius: 1cqh;
+    border-radius: 1rem;
     width: 95%;
     padding: 10px;
     margin-top: 30px;
@@ -95,7 +97,7 @@ table td{
 .measure{
     color: hsl(14, 45%, 36%);
     font-weight: 700;
-    margin-left: 40%;
+    text-align: left;
 }
 
 .measure-last{
@@ -116,6 +118,21 @@ table td{
 
 a {
     text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  #recipe {
+    width: 95%;
+    padding: 20px;
+  }
+
+  body {
+    padding: 10px;
+  }
+
+  table td {
+    padding: 8px 0 8px 10px;
+  }
 }
 
 /* color references 
