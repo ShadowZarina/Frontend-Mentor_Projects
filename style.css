@@ -25,16 +25,24 @@ img {
 }
 
 h1 {
-
+    font-weight: 700;
+    font-size: 32px;
 }
 
 h2 {
-
+    font-weight: 600;
 }
 
 p {
+    font-weight: 400;
+}   
 
+
+
+.inline {
+    display: inline-block;
 }
+
 .faq {
 
 }
