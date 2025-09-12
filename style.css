@@ -27,14 +27,17 @@ img {
 h1 {
     font-weight: 700;
     font-size: 32px;
+    color: hsl(292, 42%, 14%);
 }
 
 h2 {
     font-weight: 600;
+    color: hsl(292, 42%, 14%);
 }
 
 p {
     font-weight: 400;
+    color: hsl(292, 16%, 49%);
 }   
 
 
