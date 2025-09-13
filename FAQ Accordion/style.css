@@ -4,8 +4,11 @@
     font-family: 'Work Sans',sans-serif;
 }
 
+/* Half-half the background */
+
 body {
     font-size: 16px;
+    background-color: hsl(275, 100%, 97%);
     background-image: url('assets/images/background-pattern-desktop.svg'); /* Relative path to your image */
     background-size: cover; 
     background-position: center; 
@@ -21,7 +24,8 @@ body {
 
 
 img {
-
+    height: 20px;
+    width: 20px;
 }
 
 h1 {
@@ -30,9 +34,14 @@ h1 {
     color: hsl(292, 42%, 14%);
 }
 
-h2 {
+.h2-button {
     font-weight: 600;
     color: hsl(292, 42%, 14%);
+}
+
+.h2-button:hover {
+    font-weight: 600;
+    color: hsl(292, 16%, 49%);
 }
 
 p {
@@ -56,13 +65,11 @@ p {
 
 
 .plus {
-    height: 20px;
-    width: 20px;
+
 }
 
 .minus {
-    height: 20px;
-    width: 20px;
+
 }
 
 .hidden {
