@@ -54,6 +54,21 @@ p {
 
 }
 
+
+.plus {
+    height: 20px;
+    width: 20px;
+}
+
+.minus {
+    height: 20px;
+    width: 20px;
+}
+
+.hidden {
+    display: hidden;
+}
+
 ## Colors
 
 - White: hsl(0, 100%, 100%)
