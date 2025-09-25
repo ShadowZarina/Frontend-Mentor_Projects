@@ -2,7 +2,12 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
     color: hsl(234, 29%, 20%);
     background-color: hsl(234, 29%, 20%);
 }
@@ -15,10 +20,18 @@
     background-color: hsl(0, 0%, 100%);
 }
 
-/* Headings */
+/* Text */
 
+h1 {
+    font-size: 30px;
+    color: hsl(235, 18%, 26%);
+}
 
-
+input::placeholder {
+        color: hsl(0, 0%,58%);
+        opacity: 1;   
+        
+/* check difference between Blue 800 and 700, identify which one goes to text & bg color */
 
 /* Default */
 
