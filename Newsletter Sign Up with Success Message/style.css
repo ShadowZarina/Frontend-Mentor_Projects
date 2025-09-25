@@ -1,2 +1,21 @@
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+/* Body */
+
+
+/* Headings */
+
+
+
+
+/* Form 1 */
+
+
+/* Attributions */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
