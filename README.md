@@ -3,7 +3,6 @@
 This repository is a collection of all the Frontend Mentor projects I have successfully completed.
 
 ## To Add
-- Social Links Profile
 - Interactive Rating Component
 
 JUNIOR (Level 2)
