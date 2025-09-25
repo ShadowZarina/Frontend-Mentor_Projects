@@ -15,6 +15,14 @@
 
 /* Error States */
 
+.error-input {
+    background-color: hsl(4, 100%, 67%);
+    color: hsl(4, 100%, 67%);
+}
+
+.error {
+    color: hsl(4, 100%, 67%);
+}
 
 /* Success State */
 
