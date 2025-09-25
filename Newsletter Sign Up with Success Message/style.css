@@ -25,12 +25,13 @@ body {
 h1 {
     font-size: 30px;
     color: hsl(235, 18%, 26%);
+    font-weight: 700;
 }
 
 input::placeholder {
         color: hsl(0, 0%,58%);
         opacity: 1;   
-        
+
 /* check difference between Blue 800 and 700, identify which one goes to text & bg color */
 
 /* Default */
@@ -71,3 +72,25 @@ button {
 /* Media Queries */
 
 /* change image in default form based on size */
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: lightblue;
+    font-size: 18px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Styles for screens with a maximum width of 767px (typically mobile devices) */
+@media screen and (max-width: 767px) {
+  body {
+    background-color: lightcoral;
+    font-size: 16px;
+  }
+  .container {
+    display: block; /* Stack elements vertically */
+  }
+}
