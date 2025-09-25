@@ -33,7 +33,7 @@
         <h3>Email address</h3>
         <input type="email" placeholder="email@company.com" />
 
-        <button>Subscribe to monthly newsletter</button>
+        <button onclick="switchDivs()">Subscribe to monthly newsletter</button>
       </div>
       <div class="sign-up image">
         <img src="./assets/images/illustration-sign-up-desktop.svg" />
@@ -46,12 +46,14 @@
 
   <!-- Success message start -->
   <div class="container2">
+
+    <img src="./assets/images/icon-list.svg" />
     <h1>Thanks for subscribing!</h1>
 
-    A confirmation email has been sent to ash@loremcompany.com. 
+    A confirmation email has been sent to <strong>ash@loremcompany.com</strong>. 
     Please open it and click the button inside to confirm your subscription.
 
-    <button>Dismiss message</button>
+    <button class="dismiss">Dismiss message</button>
   </div>
   <!-- Success message end -->
   

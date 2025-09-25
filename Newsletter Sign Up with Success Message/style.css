@@ -2,6 +2,8 @@
 * {
     margin: 0;
     padding: 0;
+    align-items: center;
+    justify-content: center;
 }
 
 body {
@@ -28,9 +30,17 @@ h1 {
     font-weight: 700;
 }
 
+h3 {
+    font-weight: 700;
+}
+
 input::placeholder {
         color: hsl(0, 0%,58%);
         opacity: 1;   
+
+.inline {
+    display: inline-block;
+}
 
 /* check difference between Blue 800 and 700, identify which one goes to text & bg color */
 
@@ -38,7 +48,7 @@ input::placeholder {
 
 button {
     cursor: pointer;
-    background-color: hsl(4, 100%, 67%); /* gradient */
+    background-color: hsl(234, 29%, 20%);
     color: hsl(0, 0%, 100%);
 }
 
@@ -55,7 +65,11 @@ button {
 
 /* Success State */
 
-
+.dismiss {
+    background-color: linear-gradient(to right, hsl(4, 100%, 67%), #ff7e5f);
+    color: hsl(0, 0%, 100%);
+    box-shadow: 5px 5px 10px hsl(4, 100%, 67%);
+}
 
 /* Attributions */
 
@@ -73,7 +87,7 @@ button {
 
 /* change image in default form based on size */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 375px) {
   body {
     background-color: lightblue;
     font-size: 18px;
@@ -84,8 +98,7 @@ button {
   }
 }
 
-/* Styles for screens with a maximum width of 767px (typically mobile devices) */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1440px) {
   body {
     background-color: lightcoral;
     font-size: 16px;
