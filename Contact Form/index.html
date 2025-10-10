@@ -18,31 +18,31 @@
 
   <label for="fname">First Name</label>
   <input type="text" id="fname" name="fname">
-  This field is required
+  <p class="errorMessage" id="fnameErrorMessage">This field is required</p>
 
   <label for="lname">Last Name</label>
   <input type="text" id="lname" name="lname">
-  This field is required
+  <p class="errorMessage" id="lnameErrorMessage">This field is required</p>
 
   <label for="email">Email Address</label>
   <input type="email" id="email" name="email">
-  Please enter a valid email address
-  This field is required
+  <p class="errorMessage" id="emailErrorMessage">Please enter a valid email address</p>
+  <p class="errorMessage" id="emailErrorMessage">This field is required</p>
 
   <label for="query">Query Type</label>
-  <input type="radio" id="general" name="general" value="general" checked />
+  <input type="radio" id="general" name="query" value="general" />
   <label for="general">General Enquiry</label>
-  <input type="radio" id="support" name="support" value="support" />
+  <input type="radio" id="support" name="query" value="support" />
   <label for="support">Support Request</label>
-  Please select a query type
+  <p class="errorMessage" id="radioErrorMessage">Please select a query type</p>
 
   <label for="message">Message</label>
-  <textarea></textarea>
-  <p class="errorMessage">This field is required</p> 
+  <textarea id="textarea"></textarea>
+  <p class="errorMessage" id="messageErrorMessage">This field is required</p> 
 
   <input type="checkbox" id="consent" />
   <label for="consent">I consent to being contacted by the team</label>
-  To submit this form, please consent to being contacted
+  <p class="errorMessage" id="consentErrorMessage">To submit this form, please consent to being contacted</p>
 
     
     
