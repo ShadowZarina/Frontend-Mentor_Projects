@@ -46,7 +46,7 @@ function validateInput() {
     const fname = document.getElementById('fname');
     const lname = document.getElementById('lname');
     const email = document.getElementById('email');
-    const query = document.getElementById('email');
+    const query = document.getElementsByName('query');
     const textarea = document.getElementById('textarea');
     const errorMessageElement = document.getElementById('errorMessage');
     const inputValue = inputField.value.trim(); // Get and trim the input value
@@ -54,6 +54,7 @@ function validateInput() {
     // Clear previous error message
     errorMessageElement.textContent = ''; 
 
+    /*
     if (inputValue === '') {
         errorMessageElement.textContent = 'This field cannot be empty.';
         inputField.classList.add('error-border'); // Add a class for styling the input
@@ -64,7 +65,8 @@ function validateInput() {
         // Input is valid
         alert('Input is valid!');
         inputField.classList.remove('error-border'); // Remove error styling
-
+    */
+   
     }
 }
 
