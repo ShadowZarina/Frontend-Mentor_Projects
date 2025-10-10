@@ -17,6 +17,14 @@ h1, h2 {
 
 
 
+/* Error Messages */
+
+.errorMessage {
+  display: none;
+  color: hsl(0, 66%, 54%);
+}
+
+
 
 /* Success State */
 

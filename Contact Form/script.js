@@ -1,4 +1,10 @@
+// ELEMENTS FOR IDS OF EVERY INPUT 
 
+const fname = document.getElementById('fname');
+const lname = document.getElementById('lname');
+const email = document.getElementById('email');
+const query = document.getElementsByName('query');
+const textarea = document.getElementById('textarea');
 
 // FOR SUCCESS STATE POPUP
 
@@ -43,16 +49,23 @@ function submitInput() {
 
 // Check if inputs are correct
 function validateInput() {
-    const fname = document.getElementById('fname');
-    const lname = document.getElementById('lname');
-    const email = document.getElementById('email');
-    const query = document.getElementsByName('query');
-    const textarea = document.getElementById('textarea');
-    const errorMessageElement = document.getElementById('errorMessage');
-    const inputValue = inputField.value.trim(); // Get and trim the input value
+    const errorMessage = document.getElementsByClassName('errorMessage');
+    const fnameErrorMessage = document.getElementById('fnameErrorMessage');
+    const fnameErrorMessage = document.getElementById('fnameErrorMessage');
+    const fnameErrorMessage = document.getElementById('fnameErrorMessage');
+    const fnameErrorMessage = document.getElementById('fnameErrorMessage');
+    const fnameErrorMessage = document.getElementById('fnameErrorMessage');
+    const fnameErrorMessage = document.getElementById('fnameErrorMessage');
+    
+    // const inputValue = inputField.value.trim(); // Get and trim the input value
 
     // Clear previous error message
-    errorMessageElement.textContent = ''; 
+    // errorMessageElement.textContent = ''; 
+
+    // First Name
+    if (fname.value === '') {
+      fnameErrorMessage.style.display = block;
+    }
 
     /*
     if (inputValue === '') {
@@ -66,7 +79,7 @@ function validateInput() {
         alert('Input is valid!');
         inputField.classList.remove('error-border'); // Remove error styling
     */
-   
+
     }
 }
 
@@ -82,3 +95,4 @@ function consentInput() {
       }
     }
 }
+
