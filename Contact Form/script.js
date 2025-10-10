@@ -51,11 +51,12 @@ function submitInput() {
 function validateInput() {
     const errorMessage = document.getElementsByClassName('errorMessage');
     const fnameErrorMessage = document.getElementById('fnameErrorMessage');
-    const fnameErrorMessage = document.getElementById('fnameErrorMessage');
-    const fnameErrorMessage = document.getElementById('fnameErrorMessage');
-    const fnameErrorMessage = document.getElementById('fnameErrorMessage');
-    const fnameErrorMessage = document.getElementById('fnameErrorMessage');
-    const fnameErrorMessage = document.getElementById('fnameErrorMessage');
+    const lnameErrorMessage = document.getElementById('lnameErrorMessage');
+    const validEmailMessage = document.getElementById('validEmailErrorMessage');
+    const emailErrorMessage = document.getElementById('emailErrorMessage');
+    const radioErrorMessage = document.getElementById('radioErrorMessage');
+    const msgErrorMessage = document.getElementById('messageErrorMessage');
+    const consentErrorMessage = document.getElementById('consentErrorMessage');
     
     // const inputValue = inputField.value.trim(); // Get and trim the input value
 
@@ -65,6 +66,29 @@ function validateInput() {
     // First Name
     if (fname.value === '') {
       fnameErrorMessage.style.display = block;
+    }
+
+    if (lname.value === '') {
+      fnameErrorMessage.style.display = block;
+    }
+
+    if (email.value == '') {
+      fnameErrorMessage.style.display = block;
+    }
+
+    if (email.value !== '') {
+      emailIsValid();
+      if (false) {
+        validEmailMessage.style.display = block;
+      }
+    }
+
+    if (query.value === '') {
+      radioErrorMessage.style.display = block;
+    }
+
+    if (msg.value === '') {
+      msgErrorMessage.style.display = block;
     }
 
     /*
@@ -96,3 +120,7 @@ function consentInput() {
     }
 }
 
+// Check if email address is valid
+function emailIsValid (email) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
