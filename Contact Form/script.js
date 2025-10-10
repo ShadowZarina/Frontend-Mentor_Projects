@@ -3,7 +3,7 @@
 
 
 
-
+// FOR SUCCESS STATE POPUP
 
 // Script for Success State Pop-up
 
@@ -30,3 +30,26 @@ if (openPopupBtn) {
 }
 closePopupBtn.addEventListener('click', closePopup);
 popupOverlay.addEventListener('click', closePopup); // Close when clicking outside the popup
+
+// FOR ERROR MESSAGES IN EACH INPUT
+
+function validateInput() {
+    const inputField = document.getElementById('myInput');
+    const errorMessageElement = document.getElementById('errorMessage');
+    const inputValue = inputField.value.trim(); // Get and trim the input value
+
+    // Clear previous error message
+    errorMessageElement.textContent = ''; 
+
+    if (inputValue === '') {
+        errorMessageElement.textContent = 'This field cannot be empty.';
+        inputField.classList.add('error-border'); // Add a class for styling the input
+    } else if (inputValue.length < 5) {
+        errorMessageElement.textContent = 'Input must be at least 5 characters long.';
+        inputField.classList.add('error-border');
+    } else {
+        // Input is valid
+        alert('Input is valid!');
+        inputField.classList.remove('error-border'); // Remove error styling
+    }
+}
