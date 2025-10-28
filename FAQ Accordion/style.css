@@ -50,6 +50,19 @@ p {
 }   
 
 
+.bg-image-desktop,
+.bg-image-mobile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bg-image-desktop {
+  display: none;
+}
+
+
 
 .inline {
     display: inline-block;
@@ -69,7 +82,7 @@ p {
 }
 
 .minus {
-
+    display: none;
 }
 
 .hidden {
@@ -91,4 +104,43 @@ p {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+
+@media screen and ( min-width: 567px ) {
+  .bg-image-mobile {
+    display: none;
+  }
+
+  .bg-image-desktop {
+    display: block;
+  }
+}
+
+@media screen and ( min-width: 768px ) {
+
+  p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .faq-card {
+    max-width: 550px;
+    padding: 3rem 3rem 0;
+  }
+
+  .faq-item-header {
+    padding: 3rem 0;
+  }
+}
+
+@keyframes introFaqCard {
+  0% {
+    opacity: 0;
+    transform: translateY( 20% );
+  }
+  100% {
+    opacity: 1;
+    transform: translateY( 0% );
+  }
 }
