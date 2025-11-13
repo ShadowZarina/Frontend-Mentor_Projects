@@ -8,8 +8,6 @@
 body {
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
 }
 
 /* Divs */
@@ -19,14 +17,7 @@ body {
 
 
 /* Attribution */
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-}
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
 
 /* Media Queries */
 
@@ -47,3 +38,12 @@ body {
 - Grey 900 (darker): hsl(187, 24%, 22%)
 
 */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
