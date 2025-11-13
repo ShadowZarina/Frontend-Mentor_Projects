@@ -8,9 +8,35 @@
 body {
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
+    /* Background image goes here */
 }
 
+.container {
+    background-color: hsl(0, 0%, 100%);
+    /* Give box-shadow */
+}
+
+
 /* Divs */
+
+
+
+/* Div backgrounds */
+
+.lpurple-bg {
+    background-color: hsl(254, 88%, 90%)
+}
+
+.purple-bg {
+    background-color: hsl(256, 67%, 59%);
+}
+
+.yellow-bg {
+    background-color: hsl(39, 100%, 71%);
+}
+.lyellow-bg {
+    background-color: hsl(31, 66%, 93%);
+}
 
 
 /* Text */
@@ -27,26 +53,40 @@ body {
     font-style: italic;
 }
 
+
 /* Attribution */
+
 
 
 /* Media Queries */
 
 
 
+
 /* Colors
 
-### Primary
+- Purple 100: hsl(254, 88%, 90%)
+- Purple 500: hsl(256, 67%, 59%)
 
-- Green 200 (lighter): hsl(148, 38%, 91%)
-- Green 600 (medium): hsl(169, 82%, 27%)
-- Red: hsl(0, 66%, 54%)
-
-### Neutral
+- Yellow 100: hsl(31, 66%, 93%)
+- Yellow 500: hsl(39, 100%, 71%)
 
 - White: hsl(0, 0%, 100%)
-- Grey 500 (medium): hsl(186, 15%, 59%)
-- Grey 900 (darker): hsl(187, 24%, 22%)
+- Black: hsl(0, 0%, 7%)
+
+
+*/
+
+/* Fonts 
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [DM Sans](https://fonts.google.com/specimen/DM+Sans)
+- Weights: 400, 500
 
 */
 
